@@ -23,10 +23,33 @@ body {
 
 
 @media only screen and (max-width: 600px) {
+    body:before {
+        content: "";
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -10;
+        background: url(../images/richmondBackground.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+    
     body {
         background-position: center top;
         background-attachment: initial;
     }
+    /* .container {
+        background-image: url(../images/richmondBackground.jpg);
+        background-size: 1656px 800px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center top;
+    } */
     .pageContent {
         margin-top: 0px;
     }
