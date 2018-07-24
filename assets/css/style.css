@@ -1,0 +1,19 @@
+body {
+    /* color: #ffffff; */
+    background-image: url(../images/richmondBackground.jpg);
+    background-size: 1656px 800px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+.pageContent {
+    background: rgba(187, 145, 229, 0.75); 
+    margin-top: 100px;
+}
+#selfie {
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-right: 5px;
+}
