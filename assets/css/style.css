@@ -23,6 +23,9 @@ body {
 
 
 @media only screen and (max-width: 600px) {
+    body {
+        background-position: center top;
+    }
     .pageContent {
         margin-top: 0px;
     }
