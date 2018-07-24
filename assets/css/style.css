@@ -25,6 +25,7 @@ body {
 @media only screen and (max-width: 600px) {
     body {
         background-position: center top;
+        background-attachment: fixed;
     }
     .pageContent {
         margin-top: 0px;
