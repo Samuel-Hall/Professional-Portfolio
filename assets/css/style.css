@@ -20,3 +20,10 @@ body {
 #slideImage {
     height: 400px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .pageContent {
+        margin-top: 0px;
+    }
+}
