@@ -26,7 +26,7 @@ body {
     body:before {
         content: "";
         display: block;
-        position: initial;
+        position: fixed;
         left: 0;
         top: 0;
         width: 100%;
@@ -39,10 +39,10 @@ body {
         background-size: 1656px 800px;
       }
     
-    body {
+    /* body {
         background-position: center top;
         background-attachment: initial;
-    }
+    } */
     /* .container {
         background-image: url(../images/richmondBackground.jpg);
         background-size: 1656px 800px;
