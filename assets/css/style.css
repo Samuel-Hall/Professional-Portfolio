@@ -7,6 +7,10 @@ body {
     background-position: center;
 
 }
+a:link {
+    text-decoration: none;
+    color: initial;
+}
 .pageContent {
     background: rgba(187, 145, 229, 0.75); 
     margin-top: 100px;
@@ -17,9 +21,19 @@ body {
     float: left;
     margin-right: 5px;
 }
-#slideImage {
-    height: 400px;
+.portfolioItem {
+    width: 100%;
+    height: auto;
+    float: left;
 }
+.portfolioImage {
+    width: 250px;
+    height: 200px;
+}
+
+/* #slideImage {
+    height: 400px;
+} */
 /* .fa {
     padding: 20px;
     font-size: 30px;
@@ -78,7 +92,7 @@ body {
         padding-right: 10px;
     }
     .centerContent {
-        padding-left: 10px;
-        padding-right: 10px;
+        margin: 0px auto 0px auto;
+        text-align: center;
     }
 }
