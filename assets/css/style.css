@@ -22,9 +22,10 @@ a:link {
     margin-right: 5px;
 }
 .portfolioItem {
-    width: 100%;
+    width: 50%;
     height: auto;
     float: left;
+    margin-bottom: 10px;
 }
 .portfolioImage {
     width: 250px;
@@ -94,5 +95,11 @@ a:link {
     .centerContent {
         margin: 0px auto 0px auto;
         text-align: center;
+    }
+    .portfolioItem {
+        width: 100%;
+        height: auto;
+        float: left;
+        margin-bottom: 10px;
     }
 }
