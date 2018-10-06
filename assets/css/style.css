@@ -1,35 +1,57 @@
 body {
-    /* color: #ffffff; */
-    background-image: url(../images/richmondBackground.jpg);
-    background-size: 1656px 800px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-
+  /* color: #ffffff; */
+  /* background-image: url(../images/binding_light.png); */
+  background-image: url(../images/richmondBackground.jpg);
+  background-size: 1656px 800px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+#nav-container {
+  background-color: #343a40 !important;
+}
+.name-card {
+  color: #ffffff;
+  background-color: rgb(114, 70, 158);
+  width: 300px;
+}
+#profile-card {
+  width: 300px;
+  /* background: rgb(198, 164, 231, 0.91); */
+  background: rgba(148, 150, 184, 0.91);
+  padding: 1px auto 1px auto;
+}
+#skills-list {
+  list-style-type: disc;
+  list-style-position: inside;
 }
 a:link {
-    text-decoration: none;
-    color: initial;
+  text-decoration: none;
+  color: initial;
+}
+#body-content {
+  padding: 0;
 }
 .pageContent {
-    background: rgba(187, 145, 229, 0.9); 
-    margin-top: 100px;
+  /* background: rgb(198, 164, 231, 0.91); */
+  background: rgba(148, 150, 184, 0.91);
+  width: 75%;
 }
-#selfie {
-    height: 150px;
-    width: 150px;
-    float: left;
-    margin-right: 5px;
-}
+/* #selfie {
+  height: 230px;
+  width: 266px;
+  float: left;
+  margin: 1px auto 1px auto;
+} */
 .portfolioItem {
-    width: 50%;
-    height: auto;
-    float: left;
-    margin-bottom: 10px;
+  width: 50%;
+  height: auto;
+  float: left;
+  margin-bottom: 10px;
 }
 .portfolioImage {
-    width: 250px;
-    height: 200px;
+  width: 250px;
+  height: 200px;
 }
 
 /* #slideImage {
@@ -60,46 +82,46 @@ a:link {
 } */
 
 @media only screen and (max-width: 600px) {
-    body:before {
-        content: "";
-        display: block;
-        position: fixed;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -10;
-        background: url(../images/richmondBackground.jpg);
-        -webkit-background-size: 1656px 800px;
-        -moz-background-size: 1656px 800px;
-        -o-background-size: 1656px 800px;
-        background-size: 1656px 800px;
-      }
-    
-    body {
-        background-position: center top;
-        background-attachment: initial;
-    }
-    /* .container {
+  body:before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: url(../images/richmondBackground.jpg);
+    -webkit-background-size: 1656px 800px;
+    -moz-background-size: 1656px 800px;
+    -o-background-size: 1656px 800px;
+    background-size: 1656px 800px;
+  }
+
+  body {
+    background-position: center top;
+    background-attachment: initial;
+  }
+  /* .container {
         background-image: url(../images/richmondBackground.jpg);
         background-size: 1656px 800px;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center top;
     } */
-    .pageContent {
-        margin-top: 0px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .centerContent {
-        margin: 0px auto 0px auto;
-        text-align: center;
-    }
-    .portfolioItem {
-        width: 100%;
-        height: auto;
-        float: left;
-        margin-bottom: 10px;
-    }
+  .pageContent {
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .centerContent {
+    margin: 0px auto 0px auto;
+    text-align: center;
+  }
+  .portfolioItem {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-bottom: 10px;
+  }
 }
