@@ -6,6 +6,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  background-color: rgb(114, 70, 158);
 }
 #nav-container {
   background-color: #343a40 !important;
