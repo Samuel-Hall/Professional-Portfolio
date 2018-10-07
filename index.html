@@ -22,8 +22,7 @@
                     <h4>Samuel Hall</h4>
                     <h5>Full Stack Web Developer</h5>
                 </div>
-
-                <div class="collapse col-md-4 mt-2" id="collapseEmail">
+                <!-- <div class="collapse col-md-4 mt-2" id="collapseEmail">
                     <div class="card card-body">
                         <h5>Email me:</h5>
                         <h5><a href="mailto:samuel.r.hall14@gmail.com">samuel.r.hall14@gmail.com</a></h5>
@@ -34,22 +33,22 @@
                         <h5>Call me:</h5>
                         <h5>804-385-7408</h5>
                     </div>
-                </div>
+                </div> -->
                 <div class="float-right clearfix">
                     <a data-toggle="collapse" href="#collapseEmail" role="button" aria-expanded="false" aria-controls="collapseEmail"><img
-                            class="align-middle" src='assets/images/email.png' /></a>
+                            class="contact-modal align-middle" src='assets/images/email.png' /></a>
                     <a href="https://www.linkedin.com/in/samuel-hall-a0310157/" target='_blank'><img class="align-middle"
                             src='assets/images/linkedIn.png' /></a>
                     <a href="https://github.com/Samuel-Hall/" target='_blank'><img class="align-middle" src='assets/images/github.png' /></a>
-                    <a data-toggle="collapse" href="#collapsePhone" role="button" aria-expanded="false" aria-controls="collapsePhone"><img
-                            class="align-middle" src='assets/images/phone.png' /></a>
+                    <!-- <a data-toggle="collapse" href="#collapsePhone" role="button" aria-expanded="false" aria-controls="collapsePhone"><img
+                            class="align-middle" src='assets/images/phone.png' /></a> -->
                 </div>
             </nav>
         </div>
         <div id="body-content" class="col-md-10 offset-md-1">
             <div id="profile-card" class="card card-body mt-2 text-left float-left">
                 <img src="assets/images/business.jpg" alt="Samuel Hall" id='selfie' class='rounded' /><br>
-                <p><strong>About me</strong></p>
+                <p><strong>About me:</strong></p>
                 <p>My name is Samuel Hall and I am an IT Support Analyst and part-time Georgia Tech Coding Bootcamp
                     student
                     seeking full-time employment as a Full Stack Web Developer.</p>
@@ -152,12 +151,26 @@
                 </div>
             </div>
         </div>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <!-- <span class="close">&times;</span> -->
+                <div class="mt-2">
+                    <div class="card card-body modal-card">
+                        <h5>Email me:</h5>
+                        <h5><a href="mailto:samuel.r.hall14@gmail.com" id="email-link">samuel.r.hall14@gmail.com</a></h5>
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <div class="card card-body modal-card">
+                        <h5>Call me:</h5>
+                        <h5>804-385-7408</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-
-
-
-
 
     <!-- JavaScript and JQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -169,7 +182,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
         crossorigin="anonymous"></script>
 
-    <script></script>
+    <script src="assets/javascript/modal.js"></script>
 
     <script></script>
 </body>
