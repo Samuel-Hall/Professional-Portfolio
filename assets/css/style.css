@@ -9,21 +9,21 @@ body {
   background-position: center;
   background-color: rgb(114, 70, 158);
 }
-#nav-container {
-  background-color: #343a40 !important;
-}
 .name-card {
   color: #ffffff;
   background-color: rgb(114, 70, 158);
 }
 #profile-card {
-  width: 300px;
+  /* width: 300px; */
   /* background: rgb(198, 164, 231, 0.91); */
-  background: rgba(255, 255, 255, 0.78);
+  /* background: rgba(255, 255, 255, 0.78); */
   /* background: rgba(148, 150, 184, 0.91); */
   padding: 1px auto 1px auto;
 }
-#skills-list {
+/* #portfolio-card {
+  overflow: scroll;
+} */
+.skills-list {
   list-style-type: disc;
   list-style-position: inside;
 }
@@ -31,14 +31,15 @@ a:link {
   text-decoration: none;
   color: initial;
 }
-#body-content {
-  padding: 0;
-}
 .pageContent {
   /* background: rgb(198, 164, 231, 0.91); */
   background: rgba(255, 255, 255, 0.78);
   /* background: rgba(148, 150, 184, 0.91); */
-  width: 75%;
+  /* width: 75%; */
+}
+.project-card {
+  text-decoration: none;
+  color: initial;
 }
 /* #selfie {
   height: 230px;
