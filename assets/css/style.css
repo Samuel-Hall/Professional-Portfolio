@@ -2,7 +2,8 @@ body {
   /* color: #ffffff; */
   /* background-image: url(../images/binding_light.png); */
   background-image: url(../images/richmondBackground.jpg);
-  background-size: 1656px 800px;
+  background-size: 150%;
+  /* background-size: 1656px 800px; */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
