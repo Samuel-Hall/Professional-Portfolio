@@ -18,7 +18,7 @@ body {
 #profile-card {
   width: 300px;
   /* background: rgb(198, 164, 231, 0.91); */
-  background: rgba(255, 255, 255, 0.91);
+  background: rgba(255, 255, 255, 0.75);
   /* background: rgba(148, 150, 184, 0.91); */
   padding: 1px auto 1px auto;
 }
@@ -35,7 +35,7 @@ a:link {
 }
 .pageContent {
   /* background: rgb(198, 164, 231, 0.91); */
-  background: rgba(255, 255, 255, 0.91);
+  background: rgba(255, 255, 255, 0.75);
   /* background: rgba(148, 150, 184, 0.91); */
   width: 75%;
 }
