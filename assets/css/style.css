@@ -89,7 +89,7 @@ a:link {
 .footer {
   border-top: solid;
   border-top-width: 8px;
-  border-top-color: #4aaaa5;
+  border-top-color: rgb(114, 70, 158);
   background-color: black;
   position: static;
   bottom: 0;
